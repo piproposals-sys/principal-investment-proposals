@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDealModal, onOpenLenderModal }
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 pt-16 pb-20 lg:pt-24 lg:pb-28">
         <div className="max-w-3xl">
           {/* Unboxed metadata trust markers - zero pill discipline */}
-          <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-amber-300 tracking-wide mb-6">
+          <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-growth-400 tracking-wide mb-6">
             <span>Specialist UK Commercial Finance Broker</span>
             <span aria-hidden="true" className="text-slate-500">·</span>
             <span>Bridging & Property Development</span>
@@ -47,7 +47,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDealModal, onOpenLenderModal }
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-12">
             <button
               onClick={onOpenDealModal}
-              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 text-sm font-semibold tracking-wide text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-lg shadow-lg hover:shadow-xl transition-all cursor-pointer whitespace-nowrap"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 text-sm font-semibold tracking-wide text-slate-950 bg-growth-500 hover:bg-growth-400 rounded-lg shadow-lg shadow-growth-500/20 hover:shadow-xl transition-all cursor-pointer whitespace-nowrap"
             >
               <span>Submit a Deal for Assessment</span>
               <ArrowRight className="w-4 h-4" />
@@ -60,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDealModal, onOpenLenderModal }
             </a>
             <button
               onClick={onOpenLenderModal}
-              className="inline-flex items-center justify-center px-4 py-3.5 text-xs font-medium text-slate-400 hover:text-amber-300 transition-colors cursor-pointer"
+              className="inline-flex items-center justify-center px-4 py-3.5 text-xs font-medium text-slate-400 hover:text-growth-300 transition-colors cursor-pointer"
             >
               Looking to lend capital? →
             </button>
@@ -69,15 +69,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDealModal, onOpenLenderModal }
           {/* Core Values / Human Promise */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-3 gap-x-6 pt-8 border-t border-slate-800 text-xs text-slate-300">
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+              <CheckCircle2 className="w-4 h-4 text-growth-400 shrink-0" />
               <span>Friendly & accessible broker</span>
             </div>
             <div className="flex items-center gap-2">
-              <Zap className="w-4 h-4 text-amber-400 shrink-0" />
+              <Zap className="w-4 h-4 text-growth-400 shrink-0" />
               <span>Decisions within 2–4 hours</span>
             </div>
             <div className="flex items-center gap-2">
-              <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+              <ShieldCheck className="w-4 h-4 text-growth-400 shrink-0" />
               <span>No upfront assessment fees</span>
             </div>
           </div>

@@ -126,7 +126,7 @@ export const GoogleReviewModal: React.FC<GoogleReviewModalProps> = ({ isOpen, on
               </button>
               <button
                 type="submit"
-                className="px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 rounded-lg shadow-sm transition-colors cursor-pointer"
+                className="px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-growth-600 rounded-lg shadow-sm transition-colors cursor-pointer"
               >
                 Submit Review
               </button>

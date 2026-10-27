@@ -22,15 +22,19 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
-            <a href="#" className="text-lg font-bold text-white tracking-tight font-display block">
-              Principal Investment Proposals
+            <a href="#" className="inline-block bg-white p-2.5 rounded-xl border border-slate-700 shadow-sm hover:border-growth-500 transition-colors">
+              <img
+                src="/assets/aistudio/logo_97a322f9.jpg"
+                alt="Principal Investment Proposals - ...Because Investments Grow..."
+                className="h-12 w-auto object-contain"
+              />
             </a>
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
               Independent UK commercial finance brokerage specialising in bridging loans, property development finance, working capital solutions, invoice discounting, and asset refinance.
             </p>
             <div className="pt-2 text-[11px] text-slate-500 space-y-1">
               <div>Primary Domain: <span className="font-mono text-slate-300">www.principalinvestmentproposals.co.uk</span></div>
-              <div>Direct Inbox: <a href="mailto:piproposals@gmail.com" className="text-amber-400 hover:underline">piproposals@gmail.com</a></div>
+              <div>Direct Inbox: <a href="mailto:piproposals@gmail.com" className="text-growth-400 hover:underline">piproposals@gmail.com</a></div>
               <div>DNS & Infrastructure: IONOS Cloud</div>
             </div>
           </div>
@@ -72,7 +76,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </a>
               </li>
               <li>
-                <button onClick={onOpenStrategyModal} className="text-left text-amber-400 hover:text-amber-300 transition-colors cursor-pointer">
+                <button onClick={onOpenStrategyModal} className="text-left text-growth-400 hover:text-growth-300 transition-colors cursor-pointer">
                   GMB & Growth Strategy
                 </button>
               </li>
@@ -88,7 +92,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="pt-2">
               <button
                 onClick={onOpenDealModal}
-                className="w-full py-2.5 px-3 text-xs font-bold uppercase tracking-wider text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-lg transition-colors cursor-pointer text-center block"
+                className="w-full py-2.5 px-3 text-xs font-bold uppercase tracking-wider text-slate-950 bg-growth-500 hover:bg-growth-400 rounded-lg transition-colors cursor-pointer text-center block shadow-sm"
               >
                 Request Free Assessment
               </button>

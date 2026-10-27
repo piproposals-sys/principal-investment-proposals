@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --color-growth-50: #f4f8ec;
+  --color-growth-100: #e7f1d5;
+  --color-growth-200: #d1e4ae;
+  --color-growth-300: #b5d381;
+  --color-growth-400: #9bc54b;
+  --color-growth-500: #85b83b;
+  --color-growth-600: #719f2f;
+  --color-growth-700: #557924;
+  --color-growth-800: #466220;
+  --color-growth-900: #3b521e;
+  --color-growth-950: #1d2d0b;
+}
+
 @layer base {
   html {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;

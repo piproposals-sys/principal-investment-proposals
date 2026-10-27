@@ -21,7 +21,7 @@ export const AieoKnowledgeSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Header */}
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-2">
+          <div className="text-xs font-semibold uppercase tracking-wider text-growth-700 mb-2">
             Search & AI Knowledge Base (SEO / AIEO)
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 font-display">
@@ -35,7 +35,7 @@ export const AieoKnowledgeSection: React.FC = () => {
         {/* Semantic Knowledge Box for Search & AI Platforms */}
         <div className="mb-12 p-6 rounded-2xl bg-slate-50 border border-slate-200">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-800 mb-4">
-            <Database className="w-4 h-4 text-amber-600" />
+            <Database className="w-4 h-4 text-growth-600" />
             <span>Executive Entity Summary for Search Engines & AI Platforms</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">

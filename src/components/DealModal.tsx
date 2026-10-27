@@ -342,7 +342,7 @@ export const DealModal: React.FC<DealModalProps> = ({
                 </button>
                 <button
                   type="submit"
-                  className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center gap-2 cursor-pointer"
+                  className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-growth-600 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center gap-2 cursor-pointer"
                 >
                   <span>Submit for Assessment</span>
                   <ArrowRight className="w-4 h-4" />

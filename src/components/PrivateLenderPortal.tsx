@@ -26,7 +26,7 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8">
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold uppercase tracking-wider text-amber-400 mb-2 font-mono">
+          <div className="text-xs font-semibold uppercase tracking-wider text-growth-400 mb-2 font-mono">
             Capital Partners & Private Debt Syndication
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white font-display">
@@ -40,7 +40,7 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
         {/* 3 Pillars for Private Lenders */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="p-6 rounded-2xl bg-slate-800/80 border border-slate-700">
-            <div className="p-3 w-fit rounded-lg bg-amber-500/10 text-amber-400 mb-4">
+            <div className="p-3 w-fit rounded-lg bg-growth-500/10 text-growth-400 mb-4">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-white mb-2">1st & 2nd Charge Legal Security</h3>
@@ -50,7 +50,7 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
           </div>
 
           <div className="p-6 rounded-2xl bg-slate-800/80 border border-slate-700">
-            <div className="p-3 w-fit rounded-lg bg-amber-500/10 text-amber-400 mb-4">
+            <div className="p-3 w-fit rounded-lg bg-growth-500/10 text-growth-400 mb-4">
               <TrendingUp className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-white mb-2">Target Yields: 9% – 15% p.a.</h3>
@@ -60,7 +60,7 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
           </div>
 
           <div className="p-6 rounded-2xl bg-slate-800/80 border border-slate-700">
-            <div className="p-3 w-fit rounded-lg bg-amber-500/10 text-amber-400 mb-4">
+            <div className="p-3 w-fit rounded-lg bg-growth-500/10 text-growth-400 mb-4">
               <FileText className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-white mb-2">Institutional-Grade Deal Packs</h3>
@@ -89,7 +89,7 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
             </button>
             <button
               onClick={onOpenLenderModal}
-              className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-lg transition-colors inline-flex items-center gap-2 cursor-pointer"
+              className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-slate-950 bg-growth-500 hover:bg-growth-400 rounded-lg transition-colors inline-flex items-center gap-2 cursor-pointer shadow-sm"
             >
               <span>Submit Lending Criteria</span>
               <ArrowRight className="w-4 h-4" />
@@ -103,12 +103,12 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
             <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 sm:p-8 text-white max-h-[90vh] overflow-y-auto">
               <div className="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
                 <div>
-                  <div className="text-xs font-mono text-amber-400 uppercase">Sanitized Specimen Memo</div>
+                  <div className="text-xs font-mono text-growth-400 uppercase">Sanitized Specimen Memo</div>
                   <h3 className="text-lg font-bold text-white">Executive Lending Proposal Summary</h3>
                 </div>
                 <button
                   onClick={() => setShowSamplePack(false)}
-                  className="text-slate-400 hover:text-white text-sm px-2 py-1"
+                  className="text-slate-400 hover:text-white text-sm px-2 py-1 cursor-pointer"
                 >
                   Close ✕
                 </button>
@@ -135,21 +135,21 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-amber-300 mb-1">Borrower Profile & Track Record</h4>
+                  <h4 className="font-bold text-growth-300 mb-1">Borrower Profile & Track Record</h4>
                   <p className="text-slate-300 text-xs leading-relaxed">
                     UK-registered property investment SPV. Principal director has 12 years commercial property track record with £18M completed transactions. Clear credit profile and verified net worth exceeding 3x the loan amount.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-amber-300 mb-1">Proposed Return & Terms</h4>
+                  <h4 className="font-bold text-growth-300 mb-1">Proposed Return & Terms</h4>
                   <p className="text-slate-300 text-xs leading-relaxed">
                     Coupon: 0.85% per month (10.2% p.a. gross yield). 12 months term with 9 months minimum interest guaranteed. 3 months interest retained upfront.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-amber-300 mb-1">Exit Strategy Verification</h4>
+                  <h4 className="font-bold text-growth-300 mb-1">Exit Strategy Verification</h4>
                   <p className="text-slate-300 text-xs leading-relaxed">
                     Primary exit: Re-letting ground floor retail to national tenant followed by 5-year commercial term refinance (pre-qualification letter from challenger bank already secured). Secondary exit: Unconditional private treaty sale.
                   </p>
@@ -162,7 +162,7 @@ export const PrivateLenderPortal: React.FC<PrivateLenderPortalProps> = ({ onOpen
                     setShowSamplePack(false);
                     onOpenLenderModal();
                   }}
-                  className="px-5 py-2.5 text-xs font-bold uppercase text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-lg cursor-pointer"
+                  className="px-5 py-2.5 text-xs font-bold uppercase text-slate-950 bg-growth-500 hover:bg-growth-400 rounded-lg cursor-pointer shadow-sm"
                 >
                   Join Lending Panel
                 </button>

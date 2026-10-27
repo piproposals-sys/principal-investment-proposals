@@ -190,7 +190,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialFacility 
     <section id="contact" className="py-20 bg-slate-50 border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-2">
+          <div className="text-xs font-semibold uppercase tracking-wider text-growth-700 mb-2">
             Open & Approachable
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 font-display">
@@ -217,7 +217,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialFacility 
                   href="mailto:piproposals@gmail.com"
                   className="flex items-center gap-3.5 p-3 rounded-xl bg-slate-50 hover:bg-slate-100 transition-colors text-slate-700 hover:text-slate-900 group"
                 >
-                  <div className="p-2.5 rounded-lg bg-amber-50 group-hover:bg-amber-100 text-amber-700">
+                  <div className="p-2.5 rounded-lg bg-growth-50 group-hover:bg-growth-100 text-growth-700">
                     <Mail className="w-4 h-4" />
                   </div>
                   <div>
@@ -269,19 +269,19 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialFacility 
             </div>
 
             {/* Quick Action Box */}
-            <div className="p-5 rounded-2xl bg-amber-50 border border-amber-200/80 text-amber-950 text-xs leading-relaxed space-y-3">
+            <div className="p-5 rounded-2xl bg-growth-50 border border-growth-200/80 text-growth-950 text-xs leading-relaxed space-y-3">
               <div>
                 <span className="font-bold block mb-1">Friendly & Reliable Service:</span>
                 Whether you are an experienced developer running a £5M residential build or an SME exploring invoice discounting for the first time, we break down numbers in plain English and give you honest, actionable advice immediately.
               </div>
               {onOpenInbox && (
-                <div className="pt-2 border-t border-amber-200/60">
+                <div className="pt-2 border-t border-growth-200/60">
                   <button
                     type="button"
                     onClick={onOpenInbox}
-                    className="w-full py-2 px-3 text-xs font-semibold text-slate-900 bg-white hover:bg-slate-50 border border-amber-300 rounded-lg shadow-2xs transition-colors flex items-center justify-center gap-2 cursor-pointer"
+                    className="w-full py-2 px-3 text-xs font-semibold text-slate-900 bg-white hover:bg-slate-50 border border-growth-300 rounded-lg shadow-2xs transition-colors flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <Inbox className="w-3.5 h-3.5 text-amber-700" />
+                    <Inbox className="w-3.5 h-3.5 text-growth-700" />
                     <span>View Broker Inbox (Check Received Messages)</span>
                   </button>
                 </div>
@@ -293,23 +293,23 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialFacility 
           {/* Right Column: Tabbed Forms (Direct Message vs Deal Submission) */}
           <div className="lg:col-span-7 bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 shadow-sm">
             {/* Quick Test Trigger Banner */}
-            <div className="mb-6 p-3 rounded-xl bg-amber-50/90 border border-amber-200/90 flex flex-wrap items-center justify-between gap-2.5 text-xs">
-              <div className="flex items-center gap-2 text-amber-950 font-medium">
-                <Sparkles className="w-4 h-4 text-amber-700 shrink-0" />
-                <span>Want to test sending an enquiry directly to <strong className="font-mono text-amber-900">piproposals@gmail.com</strong>?</span>
+            <div className="mb-6 p-3 rounded-xl bg-growth-50/90 border border-growth-200/90 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+              <div className="flex items-center gap-2 text-growth-950 font-medium">
+                <Sparkles className="w-4 h-4 text-growth-700 shrink-0" />
+                <span>Want to test sending an enquiry directly to <strong className="font-mono text-growth-900">piproposals@gmail.com</strong>?</span>
               </div>
               <div className="flex items-center gap-2">
                 <button
                   type="button"
                   onClick={() => handleFillTestEnquiry('message')}
-                  className="px-2.5 py-1 text-[11px] font-semibold text-slate-900 bg-white hover:bg-slate-100 border border-amber-300 rounded-md shadow-2xs transition-colors cursor-pointer"
+                  className="px-2.5 py-1 text-[11px] font-semibold text-slate-900 bg-white hover:bg-slate-100 border border-growth-300 rounded-md shadow-2xs transition-colors cursor-pointer"
                 >
                   Prefill Test Message
                 </button>
                 <button
                   type="button"
                   onClick={() => handleFillTestEnquiry('deal')}
-                  className="px-2.5 py-1 text-[11px] font-semibold text-slate-900 bg-white hover:bg-slate-100 border border-amber-300 rounded-md shadow-2xs transition-colors cursor-pointer"
+                  className="px-2.5 py-1 text-[11px] font-semibold text-slate-900 bg-white hover:bg-slate-100 border border-growth-300 rounded-md shadow-2xs transition-colors cursor-pointer"
                 >
                   Prefill Test Deal (£1.25M)
                 </button>
@@ -516,7 +516,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialFacility 
 
                     <button
                       type="submit"
-                      className="w-full py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 cursor-pointer"
+                      className="w-full py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-growth-600 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 cursor-pointer"
                     >
                       <Send className="w-4 h-4" />
                       <span>Send Direct Message to Broker</span>
@@ -758,7 +758,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialFacility 
 
                     <button
                       type="submit"
-                      className="w-full py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 cursor-pointer"
+                      className="w-full py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-growth-600 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 cursor-pointer"
                     >
                       <ArrowRight className="w-4 h-4" />
                       <span>Submit Deal for Free Broker Appraisal</span>

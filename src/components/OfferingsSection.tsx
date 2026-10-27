@@ -30,15 +30,15 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
   const getOfferingIcon = (id: FinanceType) => {
     switch (id) {
       case 'bridging':
-        return <Building2 className="w-5 h-5 text-amber-600" />;
+        return <Building2 className="w-5 h-5 text-growth-600" />;
       case 'development':
-        return <Home className="w-5 h-5 text-amber-600" />;
+        return <Home className="w-5 h-5 text-growth-600" />;
       case 'working-capital':
-        return <Coins className="w-5 h-5 text-amber-600" />;
+        return <Coins className="w-5 h-5 text-growth-600" />;
       case 'invoice':
-        return <Receipt className="w-5 h-5 text-amber-600" />;
+        return <Receipt className="w-5 h-5 text-growth-600" />;
       case 'asset':
-        return <Truck className="w-5 h-5 text-amber-600" />;
+        return <Truck className="w-5 h-5 text-growth-600" />;
     }
   };
 
@@ -53,7 +53,7 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-2">
+          <div className="text-xs font-semibold uppercase tracking-wider text-growth-700 mb-2">
             Structured Commercial Lending
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 font-display">
@@ -90,14 +90,14 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
           <div className="lg:col-span-7 p-6 sm:p-10 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-slate-200">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-2.5 rounded-lg bg-amber-50 border border-amber-100">
+                <div className="p-2.5 rounded-lg bg-growth-50 border border-growth-100">
                   {getOfferingIcon(selectedOffering.id)}
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900 font-display">
                     {selectedOffering.title}
                   </h3>
-                  <p className="text-xs text-amber-700 font-medium">
+                  <p className="text-xs text-growth-700 font-medium">
                     {selectedOffering.tagline}
                   </p>
                 </div>
@@ -123,7 +123,7 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
                 </div>
                 <div>
                   <div className="text-xs text-slate-500">Turnaround</div>
-                  <div className="text-sm sm:text-base font-bold text-amber-700 font-mono">
+                  <div className="text-sm sm:text-base font-bold text-growth-700 font-mono">
                     {selectedOffering.turnaround.split('·')[0]}
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
                 <ul className="space-y-2 text-xs sm:text-sm text-slate-600">
                   {selectedOffering.keyFeatures.map((feat, idx) => (
                     <li key={idx} className="flex items-start gap-2.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 shrink-0 mt-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-growth-500 shrink-0 mt-2" />
                       <span>{feat}</span>
                     </li>
                   ))}
@@ -164,7 +164,7 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
             <div className="pt-8 mt-8 border-t border-slate-100 flex flex-wrap items-center gap-4">
               <button
                 onClick={() => onOpenDealModal(selectedOffering.id)}
-                className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition-colors cursor-pointer inline-flex items-center gap-2"
+                className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-growth-600 rounded-lg transition-colors cursor-pointer inline-flex items-center gap-2"
               >
                 <span>Structure a {selectedOffering.title} Deal</span>
                 <ArrowRight className="w-4 h-4" />
@@ -185,7 +185,7 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
           {/* Right Column: Real-World Scenarios & Contextual Visual */}
           <div className="lg:col-span-5 bg-slate-900 text-white p-6 sm:p-10 flex flex-col justify-between">
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-amber-400 mb-2">
+              <div className="text-xs font-mono uppercase tracking-wider text-growth-400 mb-2">
                 Real-World Scenarios
               </div>
               <h4 className="text-xl font-bold font-display text-white mb-6">
@@ -195,7 +195,7 @@ export const OfferingsSection: React.FC<OfferingsSectionProps> = ({
               <div className="space-y-6">
                 {selectedOffering.commonScenarios.map((scenario, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-slate-800/80 border border-slate-700">
-                    <div className="text-sm font-semibold text-amber-300 mb-1">
+                    <div className="text-sm font-semibold text-growth-300 mb-1">
                       {scenario.title}
                     </div>
                     <p className="text-xs text-slate-300 leading-relaxed">

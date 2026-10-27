@@ -72,7 +72,7 @@ export const DealCalculator: React.FC<DealCalculatorProps> = ({
     <section id="calculator" className="py-20 bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="max-w-3xl mb-12">
-          <div className="text-xs font-semibold uppercase tracking-wider text-amber-700 mb-2">
+          <div className="text-xs font-semibold uppercase tracking-wider text-growth-700 mb-2">
             Instant Commercial Sizing
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 font-display">
@@ -282,7 +282,7 @@ export const DealCalculator: React.FC<DealCalculatorProps> = ({
                       {interestModel === 'rolled' ? 'After rolled interest & fee' : 'Before monthly payments'}
                     </div>
                   </div>
-                  <div className="text-2xl font-extrabold text-amber-700 font-mono tabular-nums">
+                  <div className="text-2xl font-extrabold text-growth-700 font-mono tabular-nums">
                     £{netRelease.toLocaleString('en-GB')}
                   </div>
                 </div>
@@ -293,7 +293,7 @@ export const DealCalculator: React.FC<DealCalculatorProps> = ({
               <button
                 type="button"
                 onClick={handleApply}
-                className="w-full py-3.5 px-4 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 cursor-pointer"
+                className="w-full py-3.5 px-4 text-xs font-bold uppercase tracking-wider text-white bg-slate-900 hover:bg-growth-600 rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center justify-center gap-2 cursor-pointer"
               >
                 <span>Apply with These Sized Figures</span>
                 <ArrowRight className="w-4 h-4" />

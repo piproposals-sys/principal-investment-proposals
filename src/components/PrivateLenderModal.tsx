@@ -266,7 +266,7 @@ export const PrivateLenderModal: React.FC<PrivateLenderModalProps> = ({ isOpen, 
                 </button>
                 <button
                   type="submit"
-                  className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-lg transition-colors inline-flex items-center gap-2 cursor-pointer"
+                  className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-950 bg-growth-500 hover:bg-growth-400 rounded-lg transition-colors inline-flex items-center gap-2 cursor-pointer shadow-sm"
                 >
                   <span>Submit Lending Criteria</span>
                   <ArrowRight className="w-4 h-4" />

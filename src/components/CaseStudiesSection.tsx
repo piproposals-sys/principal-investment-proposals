@@ -62,7 +62,7 @@ export const CaseStudiesSection: React.FC<CaseStudiesSectionProps> = ({
               <div>
                 {/* Meta header without pills */}
                 <div className="flex items-center justify-between text-xs text-slate-500 mb-3 pb-3 border-b border-slate-100">
-                  <div className="flex items-center gap-1.5 font-medium text-amber-800">
+                  <div className="flex items-center gap-1.5 font-medium text-growth-700">
                     <Building className="w-3.5 h-3.5" />
                     <span>{study.facility}</span>
                   </div>
@@ -138,7 +138,7 @@ export const CaseStudiesSection: React.FC<CaseStudiesSectionProps> = ({
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 shrink-0">
                 <button
                   onClick={onOpenReviewModal}
-                  className="px-5 py-3 text-xs font-bold uppercase tracking-wider text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-lg transition-colors cursor-pointer inline-flex items-center justify-center gap-2"
+                  className="px-5 py-3 text-xs font-bold uppercase tracking-wider text-slate-950 bg-growth-500 hover:bg-growth-400 rounded-lg transition-colors cursor-pointer inline-flex items-center justify-center gap-2 shadow-sm"
                 >
                   <Star className="w-4 h-4 fill-slate-950" />
                   <span>Leave a Google Review</span>

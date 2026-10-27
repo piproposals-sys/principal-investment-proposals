@@ -1,0 +1,6 @@
+{
+  "name": "Principal Investment Proposals | UK Commercial Finance Broker",
+  "description": "Independent commercial finance broker specialising in bridging loans, development finance, working capital, invoice discounting & asset finance across the UK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,8 @@
+# Robots.txt for Principal Investment Proposals
+# Website: https://www.principalinvestmentproposals.co.uk
+
+User-agent: *
+Allow: /
+
+# Direct search bots to the XML Sitemap
+Sitemap: https://www.principalinvestmentproposals.co.uk/sitemap.xml
